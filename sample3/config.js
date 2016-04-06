@@ -6,7 +6,8 @@ module.exports = {
 	servicePort: 3003,
 	type: 'daemon',
 	prerequisites: {},
-	serviceVersion: 1,
+	//serviceVersion: 1,
+	main: "index.js",
 	errors: {},
 
 	"schema": {
