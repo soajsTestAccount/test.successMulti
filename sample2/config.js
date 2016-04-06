@@ -4,7 +4,7 @@ module.exports = {
 	type: 'service',
 	serviceName: "sampleSuccess2",
 	serviceGroup: "test",
-	servicePort: 2003,
+	servicePort: 3002,
 	requestTimeout: 30,
 	requestTimeoutRenewal: 5,
 	extKeyRequired: true,
