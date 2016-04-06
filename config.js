@@ -2,6 +2,5 @@
 
 module.exports = {
 	type: 'multi',
-	//folders: ['/sample1', '/sample3']
-	folders: ['/sample1']
+	folders: ['/sample1', '/sample2', '/sample3']
 };
