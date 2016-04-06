@@ -9,7 +9,6 @@ module.exports = {
 	requestTimeoutRenewal: 5,
 	extKeyRequired: true,
 	prerequisites: {},
-	"awareness": true,
 	"errors": {
 		"600": "Database error",
 		"601": "Missing info"
