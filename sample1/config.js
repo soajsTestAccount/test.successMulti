@@ -12,6 +12,7 @@ module.exports = {
 	type: 'service',
 	prerequisites: {},
 	"awareness": true,
+	"cmd":["ls"],
 	"errors": {
 		"600": "Database error",
 		"601": "Missing info"

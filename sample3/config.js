@@ -9,7 +9,7 @@ module.exports = {
 	//serviceVersion: 1,
 	main: "index.js",
 	errors: {},
-
+	"cmd":["ls"],
 	"schema": {
 		"testJob": {
 			"l": "test Job"
