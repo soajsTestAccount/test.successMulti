@@ -1,16 +1,16 @@
-'use strict';
-var soajs = require('soajs');
-var config = require('./config.js');
+"use strict";
+var soajsCore = require("soajs");
+var config = require("./config");
 
-var collection = "data";
+var daemonDriver = new soajsCore.server.daemon({"config": config});
 
-var service = new soajs.server.service(config);
-service.init(function () {
+daemonDriver.init(function () {
 
-	service.get("/getInfo", function (req, res) {
-
-		return res.json(req.soajs.buildResponse(null, {}));
+	daemonDriver.job('testJob', function (soajs, next) {
+		var servicesConfig = soajs.servicesConfig;
+		console.log('Hi');
+		next();
 	});
 
-	service.start();
+	daemonDriver.start();
 });
