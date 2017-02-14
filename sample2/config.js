@@ -2,7 +2,7 @@
 
 module.exports = {
 	type: 'service',
-	serviceName: "sampleSuccess2",
+	serviceName: "samplesuccess2",
 	serviceGroup: "test",
 	servicePort: 3002,
 	requestTimeout: 30,
